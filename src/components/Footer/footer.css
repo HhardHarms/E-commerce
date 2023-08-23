@@ -1,0 +1,23 @@
+footer {
+  height: 50vh;
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(233, 231, 231); */
+}
+.footContainer {
+  height: 100%;
+  width: 95%;
+  border: 2px solid blue;
+}
+
+.footUP {
+  border: 2px solid gold;
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

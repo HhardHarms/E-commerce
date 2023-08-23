@@ -1,0 +1,128 @@
+.heerro {
+  height: 60vh;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  background-color: rgb(233, 231, 231);
+}
+.newSTYLE {
+  height: 100%;
+  width: 95%;
+  /* border: 2px solid blue; */
+}
+
+.newSTYLE-up {
+  /* border: 2px solid green; */
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nwSTYL-lft {
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 100%;
+  width: 22%;
+}
+
+.nwSTYL-lftUP {
+  border-bottom: 2px solid black;
+  height: 15%;
+  width: 100%;
+  padding: 10px;
+}
+.nwSTYL-lftUP h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  transition: ease-in-out 0.5s;
+}
+.nwSTYL-lftUP h3:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: ease-in-out 0.5s;
+  color: brown;
+  text-decoration: underline;
+}
+
+.nwSTYL-lftDWN {
+  height: 85%;
+  width: 100%;
+  padding: 8px;
+}
+
+.iccn {
+  color: brown;
+}
+
+.nwSTYL-lftDWN li {
+  list-style: none;
+  text-transform: capitalize;
+  color: black;
+  line-height: 35px;
+}
+
+.nwSTYL-lftDWN li span {
+  list-style: none;
+  text-transform: capitalize;
+  color: black;
+  /* line-height: 30px; */
+  font-size: 15px;
+}
+
+.nwSTYL-Ryt {
+  /* border: 2px solid fuchsia; */
+  border-radius: 20px;
+  height: 100%;
+  width: 75%;
+  background-image: url(../../Images/HeroImg.jpg);
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+}
+
+.nwSTYL-RytTXT {
+  /* border: 2px solid gold; */
+  width: 45%;
+  height: 50%;
+}
+.nwSTYL-RytTXT h4 {
+  /* border: 2px solid blue; */
+  border-radius: 10px;
+  height: 30%;
+  width: 45%;
+  font-size: 30px;
+  padding: 5px;
+  background-color: rgb(22, 133, 133);
+  color: black;
+}
+.nwSTYL-RytTXT h1 {
+  /* border: 2px solid blue; */
+  height: 35%;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: brown;
+}
+.nwSTYL-RytTXT button {
+  /* border: 2px solid blue; */
+  text-transform: capitalize;
+  height: 20%;
+  width: 33%;
+  font-size: 17px;
+  margin-top: 15px;
+  color: brown;
+  font-weight: 600;
+  background-color: rgb(22, 133, 133);
+  border-radius: 20px;
+  box-shadow: none;
+  transition: ease-in-out 0.5s;
+}
+
+.nwSTYL-RytTXT button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-in-out 0.5s;
+}
